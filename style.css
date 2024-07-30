@@ -1,0 +1,134 @@
+body{
+    background-image: url(bg.jpeg);
+    background-size: cover;
+    
+}
+.header{
+    margin: 10px 10px 0 10px;
+    height:50px;
+    width:98%;
+    background-color: black;
+    opacity: 0.9;
+    color: beige;
+    border: 3px solid black;
+    border-radius: 10%;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    
+}
+.expandable-div{
+    margin: 25px 0 0 15px;
+    height:40px;
+    width: 150px;
+    background-color: black;
+    opacity: 0.9;
+    color: beige;
+    border:3px solid black;
+    border-radius: 10%;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 10px 0 10px;
+}
+.box1{
+    height: 400px;
+    width: 22%;
+    background-color: darkgoldenrod;
+    border-radius: 10%;
+    box-shadow: 8px 8px;
+}
+.box2{
+    height: 400px;
+    width: 22%;
+    background-color: rgb(8, 107, 56);
+    border-radius: 10%;
+    box-shadow: 8px 8px;
+}
+.box3{
+    height: 400px;
+    width: 22%;
+    background-color: rgb(40, 13, 89);
+    border-radius: 10%;
+    box-shadow: 8px 8px;
+}
+.box4{
+    height: 400px;
+    width: 22%;
+    background-color: rgb(75, 4, 8);
+    border-radius: 10%;
+    box-shadow: 8px 8px;
+}
+.boxdiv1{
+    margin-top: 20px;
+    width: 100%;
+    height: 40px;
+    background-color:#D9EDBF;
+    border-radius: 10%;
+    color:beige;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+}
+.boxdiv2{
+    margin-top: 20px;
+    width: 100%;
+    height: 40px;
+    background-color:#D9EDBF;
+    border-radius: 10%;
+    color:beige;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+}
+.boxdiv3{
+    margin-top: 20px;
+    width: 100%;
+    height: 40px;
+    background-color:#D9EDBF;
+    border-radius: 10%;
+    color:beige;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+}
+.boxdiv4{
+    margin-top: 20px;
+    width: 100%;
+    height: 40px;
+    background-color:#D9EDBF;
+    border-radius: 10%;
+    color:beige;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+}
+p{
+    color: beige;
+    font-size: larger;
+}
+button{
+    margin-bottom: 20px;
+    margin-left: 10px;
+    border-radius: 10%;
+    padding: 7px;
+    box-shadow: 8px 8px;
+}
+@media(max-width: 680px) {
+    .box{
+        width: 351%;
+        display: block;
+        margin-bottom: 30px;
+        text-align: justify;
+    }
+}
